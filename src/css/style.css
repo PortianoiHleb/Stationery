@@ -1,0 +1,335 @@
+@import "./media.css";
+
+.promo {
+    min-height: 799px;
+    background: url('/src/img/fone2.jpg') center center/cover no-repeat;
+}
+
+.header_logo
+{
+    box-sizing: border-box;
+
+    
+    width: 158px;
+    height: 134px;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    display: table-cell;
+    font-family: 'Doppio One', sans-serif;
+    font-weight: 400;
+    font-size: 21.7778px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 27px;
+
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.m1
+{
+    position: absolute;
+    width: 65px;
+    height: 39px;
+    cursor: pointer;
+    
+    font-family: 'Crushed', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33.9733px;
+    line-height: 39px; 
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.m2 {
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 30px;
+    width: 120px;
+    height: 39px;
+    cursor: pointer;
+
+    font-family: 'Crushed', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33.9733px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #007bff; 
+    border: 2px solid #007bff; 
+    border-radius: 5px;
+}
+
+.m3 
+{
+    position: absolute;
+    margin-left: 30px;
+    width: 110px;
+    height: 39px;
+    cursor: pointer;
+    
+    font-family: 'Crushed', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33.9733px;
+    line-height: 39px; 
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid rgba(0, 123, 255, 0.5); 
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 5px; 
+}
+.head_name
+{
+    position: relative;
+    margin-top: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    width: 352px;
+    height: 68px;
+    
+
+    font-family: 'Doppio One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54.0412px;
+    line-height: 68px;
+   
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.love 
+{
+    display: inline;
+    position: relative;
+    left: 65px;
+    width: 203px;
+    height: 38px;
+
+    font-family: 'Crushed', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.6852px;
+    line-height: 38px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.trip {
+    display: block;
+    margin-top: 29px;
+    margin-left: 73px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 213px;
+    height: 49px;
+  
+    background-color: #0077FF;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+  
+    font-family: 'Doppio One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.2549px;
+    line-height: 27px;
+  
+    text-align: center;
+  
+    color: #FFFFFF;
+  }
+.scrolling
+{
+    min-height: 445px;
+    background: #FFFFFF center center/cover no-repeat;
+}
+
+.our_travel
+{
+    min-height: 665px;
+    background: #fff center center/cover no-repeat;
+}
+.title
+{
+    position: relative;
+    top: 65px;
+    font-family: 'Doppio One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36.6818px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 6.73748px 6.73748px rgba(0, 0, 0, 0.25);
+}
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reason-block 
+{
+    display: flex;
+    justify-content: center; /* Вирівнювання по центру горизонтально */
+    align-items: center; /* Вирівнювання по центру вертикально */
+    margin-top: 100px; /* Зменшив значення margin-top для кращого вигляду */
+}
+
+.reasons_round 
+{
+    display: flex;
+    justify-content: center; /* Вирівнювання по центру горизонтально */
+    align-items: center; /* Вирівнювання по центру вертикально */
+    width: 350px; /* Збільшена ширина прямокутника */
+    height: 250px; /* Збільшена висота прямокутника */
+    border-radius: 10px; /* Округлення кутів прямокутника */
+    overflow: hidden; /* Приховання вмісту, який виходить за межі прямокутника */
+    background-color: #f0f0f0; /* Колір фону прямокутника */
+    margin: 10px; /* Проміжок між елементами */
+    border: 2px solid #000; /* Чорна рамка товщиною 2px */
+    box-sizing: border-box; /* Рамка включається в обчислену ширину та висоту */
+    cursor: pointer;
+}
+
+.reasons_round img 
+{
+    width: 100%; /* Розтягнути зображення на всю ширину прямокутника */
+    height: 100%; /* Автоматична висота зображення */
+}
+.learn_more
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 39px;
+    margin-left: 470px;
+    width: 213px;
+    height: 49px;
+  
+    background-color: #0077FF;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+  
+    font-family: 'Doppio One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.2549px;
+    line-height: 27px;
+  
+    text-align: center;
+  
+    color: #FFFFFF;
+}
+
+.contacts {
+    background: url("/src/img/pencilcase2.png") left bottom no-repeat, #fff right bottom no-repeat;
+    min-height: 680px;
+    background-size: center center/cover;
+    background-position: 370px, bottom, right bottom;
+}
+
+.main_text
+{
+    display: block;
+    position: relative;
+}
+.text_1 
+{
+    display: inline; 
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 578px;
+    top: 108px;
+
+    font-family: 'Doppio One', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36.6818px;
+    line-height: 46px;
+
+    color: #000;
+    
+}
+
+.text_2 
+{
+    display: inline;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 578px;
+    top: 210px;
+
+    font-family: 'Doppio One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.6515px;
+    line-height: 31px;
+
+    color: #000;
+}
+
+.down {
+    min-height: 111px;
+    background: #fff center center/cover no-repeat;
+    max-width: calc(100% - 40px); /* Максимальна ширина контейнера з відступами по краях */
+    margin: 0 auto; /* Центрування контейнера по горизонталі */
+    position: relative; /* Для позиціонування псевдоелемента */
+}
+
+.down::before {
+    content: ''; /* Додати псевдоелемент */
+    position: absolute; /* Абсолютне позиціонування */
+    top: 0; /* Розташування лінії зверху */
+    left: 50%; /* Розташування лінії в центрі контейнера */
+    transform: translateX(-50%); /* Центрування лінії по горизонталі */
+    width: calc(100% - 60px); /* Ширина лінії (за відніманням відступів по обох краях) */
+    height: 2px; /* Товщина лінії */
+    background-color: #000; /* Колір лінії */
+    border-radius: 10px; /* Закруглення країв */
+}
+
+
+.down_menu
+{
+   display: block;
+   position: relative;
+
+}
+
+.year {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'Doppio One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 31px; 
+    text-align: center;
+    color: #000;
+}
+
+@import "/src/css/reg.css";

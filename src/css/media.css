@@ -1,0 +1,437 @@
+@media (max-width: 1200px)
+{
+     .poke 
+    {
+
+        left: 680px;
+
+    }
+    .text_1
+    { 
+        left: 860px;   
+    }
+    .text_2
+    {
+        left: 877px;
+    }
+    .text_3
+    {
+        left: 790px;
+    }
+    .text_4
+    {
+        left: 895px;
+    }
+    .instagram
+    {
+        left: 830px;
+    }
+    .facebook
+    {
+        left: 950px;
+    }
+    .youtube
+    {
+        left: 1060px;
+    }
+    .copiraiting
+    {
+        left: 1030px;
+    }
+    .year
+    {   
+        left: 1070px;
+    }
+}
+@media (max-width: 991px)
+{
+    .carpathians
+    {
+        right: 75px;
+    }
+    .love 
+    {
+        display: block;
+        left: 0px;
+    }
+    .trip 
+    {
+        display: block;
+        margin-left: 0px;
+    }
+    .poke 
+    {
+        left: 560px;
+    }
+    .reason-block 
+    {
+        margin-top: 110px;
+    }
+    .choice_scroll 
+    {
+        padding-right: 60px;
+    }
+    .choose 
+    {
+        right: 40px;
+    }
+    .name 
+    {
+        margin-left: 67px;
+        right: 40px;
+    }
+    .telephone 
+    {
+        margin-left: 130px;
+        right: 35px;
+    }
+    .date 
+    {
+        margin-left: 195px;
+        right: 35px;
+    }
+    .book 
+    {
+        margin-left: 250px;
+    }
+    .contacts 
+    {
+        background: url('/src/img/lake.png') center/cover no-repeat;
+        min-height: 590px;
+    }
+    .text_1 
+    {
+        left: 550px;
+        top: 108px;
+    }
+    .text_2 
+    {
+        left: 570px;
+        top: 170px;
+    }
+    .text_3 
+    {
+        left: 480px;
+        top: 220px;
+    }
+    .text_4 
+    {
+        left: 585px;
+        top: 290px;
+        font-size: 18px;
+    }
+    .instagram 
+    {
+        left: 550px;
+    }
+    .facebook 
+    { 
+        left: 640px;
+    }
+    .youtube 
+    {
+        left: 720px;
+    }
+    .copiraiting 
+    {
+        left: 700px;
+    }
+    .year 
+    {
+        left: 740px;
+    }
+}
+@media (max-width: 767px)
+{
+    .m1 
+    {
+        position: absolute;
+        left: 300px;
+        bottom: 90px;
+    }
+    .m2 
+    {
+        position: absolute;
+        margin-left: 30px;
+        left: 350px;
+        bottom: 91px;
+    }
+    .m3 
+    {
+        position: absolute;
+        margin-left: 30px;
+        left: 475px;
+        bottom: 92px;
+    }
+    .carpathians 
+    {
+        position: relative;
+        margin-top: 245px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+    .love 
+    {
+        display: inline;
+        position: relative;
+        left: 140px;
+    }
+    .scrolling 
+    {
+        min-height: 490px;
+    }
+    .poke 
+    {
+        position: absolute;
+        left: 450px;
+    }
+    .reason-block 
+    {
+        margin-top: 100px;
+        padding-bottom: 30px;
+    }
+    .choose 
+    {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+    .name 
+    {
+        position: relative;
+        display: flex;
+        margin-left: auto;
+        margin-top: 80px;
+        margin-right: auto;
+    }
+    .telephone 
+    {
+        position: relative;
+        display: flex;
+        margin-left: auto;
+        margin-top: 80px;
+        margin-right: auto;
+    }
+    .date 
+    {
+        position: relative;
+        display: flex;
+        margin-left: auto;
+        margin-top: 80px;
+        right: 9px;
+        margin-right: auto;
+        left: 1.5px;
+    }
+    .book 
+    {
+        position: relative;
+        margin-top: 37px;
+        margin-left: 150px;
+        bottom: 15px;
+    }
+    .text_1 
+    {
+        position: relative;
+        top: 108px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_2 
+    {
+        position: relative;
+        top: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_3 
+    {
+        position: relative;
+        top: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_4 
+    {
+        position: relative;
+        top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .instagram 
+    {
+        left: 135px;
+        top: 345px;
+    }
+    .facebook 
+    {
+        left: 230px;
+        top: 356px;
+    }
+    .youtube 
+    {
+        left: 310px;
+        top: 350px;
+    }
+    .copiraiting 
+    {
+        left: 500px;
+    }
+    .year 
+    {
+        left: 540px;
+    }
+
+}
+
+@media (max-width: 575px)
+{
+    .m1 
+    {
+        position: absolute;
+        left: 250px;
+        bottom: 90px;
+    }
+    .m2 
+    {
+        position: absolute;
+        margin-left: 30px;
+        left: 300px;
+        bottom: 91px;
+    }
+    .m3 
+    {
+        position: absolute;
+        margin-left: 30px;
+        left: 425px;
+        bottom: 92px;
+    }
+    .carpathians 
+    {
+        position: relative;
+        margin-top: 245px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+    .love 
+    {
+        display: inline;
+        position: relative;
+        left: 150px;
+    }
+    .trip 
+    {
+        display: block;
+        margin-top: 29px;
+        margin-left: 150px;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+    .scrolling 
+    {
+        min-height: 490px;
+    }
+    .poke 
+    {
+        position: absolute;
+        left: 350px;
+    }
+    .reason-block 
+    {
+        margin-top: 100px;
+        padding-bottom: 30px;
+    }
+    .choose 
+    {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+    .name 
+    {
+        position: relative;
+        display: flex;
+        margin-left: auto;
+        margin-top: 80px;
+        margin-right: auto;
+    }
+    .telephone 
+    {
+        position: relative;
+        display: flex;
+        margin-left: auto;
+        margin-top: 80px;
+        margin-right: auto;
+    }
+    .date 
+    {
+        position: relative;
+        display: flex;
+        margin-left: auto;
+        margin-top: 80px;
+        right: 9px;
+        margin-right: auto;
+        left: 1.5px;
+    }
+    .book 
+    {
+        position: relative;
+        margin-top: 37px;
+        margin-left: 170px;
+        bottom: 15px;
+    }
+    .text_1 
+    {
+        position: relative;
+        top: 108px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_2 
+    {
+        position: relative;
+        top: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_3 
+    {
+        position: relative;
+        top: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_4 
+    {
+        position: relative;
+        top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .instagram 
+    {
+        left: 153px;
+        top: 345px;
+    }
+    .facebook 
+    {
+        left: 248px;
+        top: 356px;
+    }
+    .youtube 
+    {
+        left: 330px;
+        top: 350px;
+    }
+    .copiraiting 
+    {
+        left: 450px;
+    }
+    .year 
+    {
+        left: 490px;
+    }
+}
