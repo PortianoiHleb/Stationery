@@ -1,0 +1,14 @@
+.log_form
+{
+    font-family: 'Doppio One', sans-serif;
+
+    position: absolute;
+    width: 622px;
+    height: 370px;
+    left: 606px;
+    top: 280px;
+
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    background: rgb(255, 255, 255);
+}
