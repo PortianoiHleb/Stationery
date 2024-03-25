@@ -1,0 +1,144 @@
+.promo_indiv {
+    min-height: 799px;
+
+}
+
+.header_logo
+{
+    box-sizing: border-box;
+
+    
+    width: 158px;
+    height: 134px;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    display: table-cell;
+    font-family: 'Doppio One', sans-serif;
+    font-weight: 400;
+    font-size: 21.7778px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 27px;
+
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.m1_indiv
+{
+    position: absolute;
+    width: 65px;
+    height: 39px;
+    cursor: pointer;
+    
+    font-family: 'Crushed', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33.9733px;
+    line-height: 39px; 
+    text-align: center;
+    
+    color: #000;
+}
+.m2_indiv 
+{
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 30px;
+    width: 120px;
+    height: 39px;
+    cursor: pointer;
+
+    font-family: 'Crushed', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33.9733px;
+    line-height: 39px;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+}
+
+.m3_indiv 
+{
+    position: absolute;
+    margin-left: 30px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    
+}
+
+.line_indiv
+{
+    position: absolute;
+    width: 622px;
+    height: 407px;
+    left: 218px;
+    top: 260px;
+
+    box-sizing: border-box;
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.caption
+{
+    position: absolute;
+    width: 677px;
+    height: 66.67px;
+    left: 50%;
+    top: 334px;
+
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Doppio One', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -1.5%;
+    text-align: left;
+}
+
+.add-to-cart
+{
+    position: absolute;
+    width: 283px;
+    height: 62px;
+    left: 50%;
+    top: 534px;
+    box-sizing: border-box;
+    border: 1px solid rgb(24, 160, 251);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+
+    color: rgb(24, 160, 251);
+    font-family: 'Doppio One', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -1.5%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.price_indiv
+{
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    left: 1290px;
+    right: 463px;
+    top: 555px;
+    bottom: 451px;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Doppio One', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+    text-align: right;
+}
