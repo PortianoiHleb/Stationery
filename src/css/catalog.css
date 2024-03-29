@@ -1,0 +1,129 @@
+.catalog_text
+{
+    position: absolute;
+    width: 400px;
+    height: 67px;
+    left: 870px;
+    top: 172px;
+  
+
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Doppio One', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -1.5%;
+    text-align: left;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 14px; /* Змінити розмір відступів */
+    background-color: #f1f1f1;
+    cursor: pointer;
+    color: #333; /* Змінити колір тексту */
+    transition: background-color 0.3s, color 0.3s; /* Додати плавну анімацію */
+    margin-top: 264px; /* Переміщення від верхнього краю на 264 пікселя */
+    width: 164px;
+    height: 50px;
+    
+}
+
+/* Add a light grey background and change text color on hover */
+.btn:hover {
+    background-color: #ddd;
+    color: #444; /* Змінити колір тексту при наведенні миші */
+}
+
+/* Add a dark background and change text color on active */
+.btn.active {
+    background-color: #666;
+    color: white; /* Змінити колір тексту при натисканні на кнопку */
+    margin-left: 129px; /* Переміщення від лівого краю на 129 пікселів */
+}
+
+#myInput 
+  {
+    position: absolute;
+    background-image: url('/src/icons/search.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    background-size: 24px;
+    width: 203px;
+    height: 50px;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    right: 336px;
+    top: 390px;
+  }
+
+.reason-block_catalog {
+    display: flex;
+    flex-direction: column; /* Встановлюємо напрямок колонки для тексту та малюнка */
+    justify-content: center; /* Вирівнювання по центру горизонтально */
+    align-items: center; /* Вирівнювання по центру вертикально */
+    margin-top: 100px; /* Зменшив значення margin-top для кращого вигляду */
+}
+
+.reasons_round_catalog {
+    display: flex;
+    justify-content: center; /* Вирівнювання по центру горизонтально */
+    align-items: center; /* Вирівнювання по центру вертикально */
+    width: 300px; /* Збільшена ширина прямокутника */
+    height: 250px; /* Збільшена висота прямокутника */
+    border-radius: 10px; /* Округлення кутів прямокутника */
+    overflow: hidden; /* Приховання вмісту, який виходить за межі прямокутника */
+    background-color: #f0f0f0; /* Колір фону прямокутника */
+    margin: 10px; /* Проміжок між елементами */
+    border: 2px solid #000; /* Чорна рамка товщиною 2px */
+    box-sizing: border-box; /* Рамка включається в обчислену ширину та висоту */
+    cursor: pointer;
+}
+
+.reasons_round_catalog img {
+    width: 100%; /* Розтягнути зображення на всю ширину прямокутника */
+    height: 100%; /* Автоматична висота зображення */
+}
+
+.reason-block_catalog p {
+    text-align: center; /* Вирівнювання тексту по центру */
+    margin: 10px 0; /* Задаємо відступи від тексту */
+}
+
+.container_catalog
+{
+    margin-bottom: 50px;
+}
+.caption_catalog 
+{
+        position: absolute;
+        width: 677px;
+        height: 66.67px;
+        top: 350px;
+        right: 5px; 
+        color: rgba(0, 0, 0, 0.8);
+        font-family: 'Doppio One', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: -1.5%;
+        text-align: left;
+}
+.price_catalog
+{
+        position: absolute;
+        width: 677px;
+        height: 66.67px;
+        top: 350px;
+        left: 5px; 
+        color: rgba(0, 0, 0, 0.8);
+        font-family: 'Doppio One', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: -1.5%;
+        text-align: left;
+}
+
