@@ -1,0 +1,187 @@
+.promo_indiv 
+{
+    min-height: 200px;
+
+}
+
+.basket_line_block
+{
+    min-height: 970px;
+}
+.basket_text
+{
+    position: relative;
+    display: block;
+    margin-bottom: 49px ;
+    
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Doppio One', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -1.5%;
+    text-align: center;
+}
+
+.basket_line
+{
+    content: ''; /* Додати псевдоелемент */
+    display: block;
+    margin-left: 50%; /* Розташування лінії в центрі контейнера */
+    transform: translateX(-50%); /* Центрування лінії по горизонталі */
+    width: calc(100% - 60px); /* Ширина лінії (за відніманням відступів по обох краях) */
+    height: 2px; /* Товщина лінії */
+    background-color: #000; /* Колір лінії */
+    border-radius: 10px; /* Закруглення країв */
+}
+.cross_basket
+{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-left: 1650px;
+    margin-right: 160px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+.reason-block_basket 
+{
+    display: flex;
+    flex-direction: column; /* Встановлюємо напрямок колонки для тексту та малюнка */
+    justify-content: center; /* Вирівнювання по центру горизонтально */
+    align-items: center; /* Вирівнювання по центру вертикально */
+    margin-top: 22px; /* Зменшив значення margin-top для кращого вигляду */
+}
+
+.reasons_round_basket 
+{
+    display: flex;
+    justify-content: center; /* Вирівнювання по центру горизонтально */
+    align-items: center; /* Вирівнювання по центру вертикально */
+    width: 300px; /* Збільшена ширина прямокутника */
+    height: 250px; /* Збільшена висота прямокутника */
+    border-radius: 10px; /* Округлення кутів прямокутника */
+    overflow: hidden; /* Приховання вмісту, який виходить за межі прямокутника */
+    background-color: #f0f0f0; /* Колір фону прямокутника */
+    margin: 10px; /* Проміжок між елементами */
+    border: 2px solid #000; /* Чорна рамка товщиною 2px */
+    box-sizing: border-box; /* Рамка включається в обчислену ширину та висоту */
+    cursor: pointer;
+}
+
+.reasons_round_basket img 
+{
+    width: 100%; /* Розтягнути зображення на всю ширину прямокутника */
+    height: 100%; /* Автоматична висота зображення */
+}
+
+.reason-block_basket p 
+{
+    text-align: center; /* Вирівнювання тексту по центру */
+    margin: 10px 0; /* Задаємо відступи від тексту */
+}
+
+.container_text_basket
+{
+    margin-bottom: 23px;
+}
+
+.caption_basket 
+{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Doppio One', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -1.5%;
+    text-align: left;
+    padding-right: 120px; 
+}
+.price_basket 
+{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Doppio One', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px; 
+    letter-spacing: -1.5%;
+    text-align: left;
+}
+
+/* Form */
+.form_basket 
+{
+    width: 400px; 
+    margin-bottom: 120px;
+    margin-left: 154px;
+}
+
+
+h2 
+{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .form-group 
+  {
+    margin-bottom: 15px;
+  }
+  
+  label 
+  {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select 
+  {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  select 
+  {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 10px;
+  }
+  
+  .total 
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .total span:first-child 
+  {
+    font-weight: bold;
+  }
+  
+  button 
+  {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover 
+  {
+    background-color: #333;
+  }
