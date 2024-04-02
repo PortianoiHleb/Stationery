@@ -185,3 +185,32 @@ h2
   {
     background-color: #333;
   }
+
+  @media (max-width: 767px) 
+  {
+    .form_basket
+    {
+      margin-left: 215px;
+    }
+    .m1_indiv
+    {
+      position: absolute;
+      left: 280px;
+      bottom: 90px;
+    }
+    .m2_indiv
+    {
+      position: absolute;
+      left: 325px;
+      bottom: 91px;
+    }
+    .cross_basket
+    {
+      margin-left: 700px;
+    }
+    .year
+    {
+      left: 15px;
+    }
+    
+  }

@@ -55,3 +55,13 @@
     border: 2px solid rgba(0, 0, 0, 0.5);
     background: rgb(255, 255, 255);
 }
+
+@media (max-width: 767px) 
+{
+    .reg_form
+    {
+        left: 80px;
+        top: 320px;
+    }
+
+}

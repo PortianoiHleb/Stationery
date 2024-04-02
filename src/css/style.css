@@ -1,6 +1,5 @@
-@import "./media.css";
-
-.promo {
+.promo 
+{
     min-height: 799px;
     background: url('/src/img/fone2.jpg') center center/cover no-repeat;
 }
@@ -47,7 +46,8 @@
     
     color: #FFFFFF;
 }
-.m2 {
+.m2 
+{
     position: absolute;
     white-space: nowrap;
     margin-left: 30px;
@@ -127,7 +127,8 @@
 
     color: #FFFFFF;
 }
-.trip {
+.trip 
+{
     display: block;
     margin-top: 29px;
     margin-left: 73px;
@@ -238,7 +239,8 @@
     color: #FFFFFF;
 }
 
-.contacts {
+.contacts 
+{
     background: url("/src/img/pencilcase2.png") left bottom no-repeat, #fff right bottom no-repeat;
     min-height: 680px;
     background-size: center center/cover;
@@ -287,7 +289,8 @@
     color: #000;
 }
 
-.down {
+.down 
+{
     min-height: 111px;
     background: #fff center center/cover no-repeat;
     max-width: calc(100% - 40px); /* Максимальна ширина контейнера з відступами по краях */
@@ -295,7 +298,8 @@
     position: relative; /* Для позиціонування псевдоелемента */
 }
 
-.down::before {
+.down::before 
+{
     content: ''; /* Додати псевдоелемент */
     position: absolute; /* Абсолютне позиціонування */
     top: 0; /* Розташування лінії зверху */
@@ -315,7 +319,8 @@
 
 }
 
-.year {
+.year 
+{
     position: absolute;
     width: 250px;
     height: 50px;
@@ -333,8 +338,69 @@
     color: #000;
 }
 
-@import "/src/css/reg.css";
-@import "/src/css/log.css";
-@import "/src/css/individual.css";
-@import "/src/css/catalog.css";
-@import "/src/css/basket.css";
+@media (max-width: 767px) 
+{
+    .promo {
+        min-height: 500px;
+        background: url('/src/img/fone2.jpg') center center/cover no-repeat;
+    }
+
+    .header_logo {
+        width: 100px;
+        height: 80px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .m1
+    {
+        position: absolute;
+        left: 230px;
+        bottom: 37px;
+    }
+    .m2
+    {
+        position: absolute;
+        left: 280px;
+        bottom: 40px;
+    }
+    .m3
+    {
+        position: absolute;
+        left: 420px;
+        bottom: 40px;
+    }
+
+    .head_name 
+    {
+        bottom: 40px ;
+        left: 10px;
+
+    }
+    .love
+    {
+        margin-left: 67px;
+        bottom: 40px;
+    }
+    .trip
+    {
+        position: absolute;
+        left: 80px;
+        bottom: -25px;
+    }
+    .learn_more
+    {
+        margin-left: 170px;
+    }
+
+    .contacts 
+    {
+    background: url("/src/img/pencilcase2.png") center center/cover no-repeat;
+    min-height: 900px;
+    }
+    
+    .text_1, .text_2
+    {
+        display: none;
+    }
+}
