@@ -96,7 +96,7 @@
 
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Doppio One', sans-serif;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 400;
     line-height: 50px;
     letter-spacing: -1.5%;
@@ -142,4 +142,52 @@
     line-height: 24px;
     letter-spacing: -1.5%;
     text-align: right;
+}
+
+@media (max-width: 767px)
+{
+    .promo_indiv
+    {
+        margin-bottom: 50px;
+    }
+    .m1_indiv
+    {
+        position: absolute;
+        left: 280px;
+        bottom: 90px;
+    }
+    .m2_indiv
+    {
+        position: absolute;
+        left: 320px;
+        bottom: 91.5px;
+    }
+    .m3_indiv
+    {
+        position: absolute;
+        left: 450px;
+        bottom: 99px;
+    }
+    .line_indiv
+    {
+        left: 85px;
+
+    }
+    .add-to-cart
+    {
+        left: 90px;
+        top: 750px;
+    }
+    .price_indiv
+    {
+        left: 450px;
+        top: 765px;
+    }
+    .caption
+    {
+        top: 680px;
+        left: 290px;
+        font-size: 25px;
+    }
+
 }

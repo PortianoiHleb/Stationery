@@ -127,3 +127,31 @@
         text-align: left;
 }
 
+@media (max-width: 767px)
+{
+    .catalog_text
+    {
+        left: 300px;
+    }
+    .btn
+    {
+        margin-top: 150px;
+    }
+
+    .btn.active
+    {
+        margin-left: 50px;
+    }
+
+    #myBtnContainer button:nth-child(5)
+    {
+        display: none;
+    }
+
+    #myInput
+    {
+        right: 515px;
+        top: 360px;
+    }
+    
+}
